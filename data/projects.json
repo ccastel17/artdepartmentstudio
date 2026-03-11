@@ -1,0 +1,1344 @@
+{
+  "set-buildings": [
+    {
+      "id": "set-buildings-1",
+      "title": "Urban Dystopia Set",
+      "description": "Complete set construction for a dystopian sci-fi series featuring industrial aesthetics and weathered textures",
+      "date": "2024-10-10",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-1-1.svg",
+      "images": [
+        "/projects/set-buildings-1-1.svg",
+        "/projects/set-buildings-1-2.svg",
+        "/projects/set-buildings-1-3.svg",
+        "/projects/set-buildings-1-4.svg"
+      ],
+      "tags": [
+        "Construction",
+        "Scenography",
+        "Filming",
+        "Industrial Design"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": true
+    },
+    {
+      "id": "set-buildings-2",
+      "title": "Victorian Manor Interior",
+      "description": "Detailed period-accurate interior set for historical drama production",
+      "date": "2024-11-04",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-2-1.svg",
+      "images": [
+        "/projects/set-buildings-2-1.svg",
+        "/projects/set-buildings-2-2.svg",
+        "/projects/set-buildings-2-3.svg",
+        "/projects/set-buildings-2-4.svg"
+      ],
+      "tags": [
+        "Period Design",
+        "Interior",
+        "Historical",
+        "Craftsmanship"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "set-buildings-3",
+      "title": "Futuristic Laboratory",
+      "description": "High-tech laboratory set with interactive LED panels and modular design",
+      "date": "2024-10-27",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-3-1.svg",
+      "images": [
+        "/projects/set-buildings-3-1.svg",
+        "/projects/set-buildings-3-2.svg",
+        "/projects/set-buildings-3-3.svg",
+        "/projects/set-buildings-3-4.svg"
+      ],
+      "tags": [
+        "Sci-Fi",
+        "Technology",
+        "Modular Design",
+        "LED Integration"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "set-buildings-4",
+      "title": "Medieval Castle Hall",
+      "description": "Grand medieval hall with stone walls, wooden beams, and authentic period details",
+      "date": "2024-05-20",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-4-1.svg",
+      "images": [
+        "/projects/set-buildings-4-1.svg",
+        "/projects/set-buildings-4-2.svg",
+        "/projects/set-buildings-4-3.svg",
+        "/projects/set-buildings-4-4.svg"
+      ],
+      "tags": [
+        "Medieval",
+        "Stone Work",
+        "Period Accuracy",
+        "Large Scale"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "set-buildings-5",
+      "title": "Modern Office Complex",
+      "description": "Contemporary office environment with glass partitions and minimalist design",
+      "date": "2024-01-07",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-5-1.svg",
+      "images": [
+        "/projects/set-buildings-5-1.svg",
+        "/projects/set-buildings-5-2.svg",
+        "/projects/set-buildings-5-3.svg",
+        "/projects/set-buildings-5-4.svg"
+      ],
+      "tags": [
+        "Modern",
+        "Corporate",
+        "Glass Work",
+        "Minimalist"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "set-buildings-6",
+      "title": "Abandoned Factory",
+      "description": "Industrial decay set with rusted machinery and atmospheric lighting",
+      "date": "2024-01-22",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-6-1.svg",
+      "images": [
+        "/projects/set-buildings-6-1.svg",
+        "/projects/set-buildings-6-2.svg",
+        "/projects/set-buildings-6-3.svg",
+        "/projects/set-buildings-6-4.svg"
+      ],
+      "tags": [
+        "Industrial",
+        "Decay",
+        "Atmosphere",
+        "Texture"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "set-buildings-7",
+      "title": "Luxury Penthouse",
+      "description": "High-end residential set with panoramic city views and designer furniture",
+      "date": "2024-01-05",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-7-1.svg",
+      "images": [
+        "/projects/set-buildings-7-1.svg",
+        "/projects/set-buildings-7-2.svg",
+        "/projects/set-buildings-7-3.svg",
+        "/projects/set-buildings-7-4.svg"
+      ],
+      "tags": [
+        "Luxury",
+        "Residential",
+        "Modern",
+        "High-End"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "set-buildings-8",
+      "title": "Underground Bunker",
+      "description": "Post-apocalyptic bunker with concrete walls and survival equipment",
+      "date": "2024-11-12",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-8-1.svg",
+      "images": [
+        "/projects/set-buildings-8-1.svg",
+        "/projects/set-buildings-8-2.svg",
+        "/projects/set-buildings-8-3.svg",
+        "/projects/set-buildings-8-4.svg"
+      ],
+      "tags": [
+        "Bunker",
+        "Post-Apocalyptic",
+        "Concrete",
+        "Survival"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "set-buildings-9",
+      "title": "Art Gallery Space",
+      "description": "Contemporary art gallery with adjustable lighting and white cube aesthetic",
+      "date": "2024-09-04",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-9-1.svg",
+      "images": [
+        "/projects/set-buildings-9-1.svg",
+        "/projects/set-buildings-9-2.svg",
+        "/projects/set-buildings-9-3.svg",
+        "/projects/set-buildings-9-4.svg"
+      ],
+      "tags": [
+        "Gallery",
+        "Contemporary",
+        "Lighting",
+        "Exhibition"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "set-buildings-10",
+      "title": "Retro Diner",
+      "description": "1950s American diner with authentic fixtures and neon signage",
+      "date": "2024-08-21",
+      "section": "set-buildings",
+      "featuredImage": "/projects/set-buildings-10-1.svg",
+      "images": [
+        "/projects/set-buildings-10-1.svg",
+        "/projects/set-buildings-10-2.svg",
+        "/projects/set-buildings-10-3.svg",
+        "/projects/set-buildings-10-4.svg"
+      ],
+      "tags": [
+        "Retro",
+        "1950s",
+        "Americana",
+        "Neon"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    }
+  ],
+  "fotografia": [
+    {
+      "id": "fotografia-1",
+      "title": "Fashion Editorial Shoot",
+      "description": "High-fashion editorial photography for international magazine featuring avant-garde styling",
+      "date": "2024-08-24",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-1-1.svg",
+      "images": [
+        "/projects/fotografia-1-1.svg",
+        "/projects/fotografia-1-2.svg",
+        "/projects/fotografia-1-3.svg",
+        "/projects/fotografia-1-4.svg"
+      ],
+      "tags": [
+        "Fashion",
+        "Editorial",
+        "Studio",
+        "Lighting"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": true
+    },
+    {
+      "id": "fotografia-2",
+      "title": "Architectural Photography",
+      "description": "Professional architectural photography showcasing modern building design",
+      "date": "2024-12-07",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-2-1.svg",
+      "images": [
+        "/projects/fotografia-2-1.svg",
+        "/projects/fotografia-2-2.svg",
+        "/projects/fotografia-2-3.svg",
+        "/projects/fotografia-2-4.svg"
+      ],
+      "tags": [
+        "Architecture",
+        "Real Estate",
+        "Exterior",
+        "Composition"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "fotografia-3",
+      "title": "Portrait Series",
+      "description": "Intimate portrait series capturing authentic human expressions",
+      "date": "2024-07-19",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-3-1.svg",
+      "images": [
+        "/projects/fotografia-3-1.svg",
+        "/projects/fotografia-3-2.svg",
+        "/projects/fotografia-3-3.svg",
+        "/projects/fotografia-3-4.svg"
+      ],
+      "tags": [
+        "Portrait",
+        "Studio",
+        "Natural Light",
+        "Emotion"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "fotografia-4",
+      "title": "Food Photography Campaign",
+      "description": "Appetizing food photography for restaurant marketing materials",
+      "date": "2024-07-17",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-4-1.svg",
+      "images": [
+        "/projects/fotografia-4-1.svg",
+        "/projects/fotografia-4-2.svg",
+        "/projects/fotografia-4-3.svg",
+        "/projects/fotografia-4-4.svg"
+      ],
+      "tags": [
+        "Food",
+        "Commercial",
+        "Styling",
+        "Macro"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "fotografia-5",
+      "title": "Corporate Headshots",
+      "description": "Professional corporate photography for company website and materials",
+      "date": "2024-01-28",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-5-1.svg",
+      "images": [
+        "/projects/fotografia-5-1.svg",
+        "/projects/fotografia-5-2.svg",
+        "/projects/fotografia-5-3.svg",
+        "/projects/fotografia-5-4.svg"
+      ],
+      "tags": [
+        "Corporate",
+        "Professional",
+        "Headshots",
+        "Business"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "fotografia-6",
+      "title": "Event Coverage",
+      "description": "Complete event photography coverage including candid and staged shots",
+      "date": "2024-05-22",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-6-1.svg",
+      "images": [
+        "/projects/fotografia-6-1.svg",
+        "/projects/fotografia-6-2.svg",
+        "/projects/fotografia-6-3.svg",
+        "/projects/fotografia-6-4.svg"
+      ],
+      "tags": [
+        "Events",
+        "Coverage",
+        "Candid",
+        "Documentation"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "fotografia-7",
+      "title": "Product Lifestyle Shoot",
+      "description": "Lifestyle product photography showing items in real-world contexts",
+      "date": "2024-03-14",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-7-1.svg",
+      "images": [
+        "/projects/fotografia-7-1.svg",
+        "/projects/fotografia-7-2.svg",
+        "/projects/fotografia-7-3.svg",
+        "/projects/fotografia-7-4.svg"
+      ],
+      "tags": [
+        "Lifestyle",
+        "Product",
+        "Context",
+        "Natural"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "fotografia-8",
+      "title": "Industrial Photography",
+      "description": "Documentary-style industrial photography capturing manufacturing processes",
+      "date": "2024-07-28",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-8-1.svg",
+      "images": [
+        "/projects/fotografia-8-1.svg",
+        "/projects/fotografia-8-2.svg",
+        "/projects/fotografia-8-3.svg",
+        "/projects/fotografia-8-4.svg"
+      ],
+      "tags": [
+        "Industrial",
+        "Documentary",
+        "Process",
+        "Technical"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "fotografia-9",
+      "title": "Nature & Landscape",
+      "description": "Stunning landscape photography showcasing natural beauty",
+      "date": "2024-06-05",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-9-1.svg",
+      "images": [
+        "/projects/fotografia-9-1.svg",
+        "/projects/fotografia-9-2.svg",
+        "/projects/fotografia-9-3.svg",
+        "/projects/fotografia-9-4.svg"
+      ],
+      "tags": [
+        "Nature",
+        "Landscape",
+        "Outdoor",
+        "Natural Light"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "fotografia-10",
+      "title": "Artistic Conceptual Shoot",
+      "description": "Conceptual photography exploring abstract themes and ideas",
+      "date": "2024-01-18",
+      "section": "fotografia",
+      "featuredImage": "/projects/fotografia-10-1.svg",
+      "images": [
+        "/projects/fotografia-10-1.svg",
+        "/projects/fotografia-10-2.svg",
+        "/projects/fotografia-10-3.svg",
+        "/projects/fotografia-10-4.svg"
+      ],
+      "tags": [
+        "Conceptual",
+        "Art",
+        "Abstract",
+        "Creative"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    }
+  ],
+  "producto": [
+    {
+      "id": "producto-1",
+      "title": "Tech Product Line",
+      "description": "Clean product photography for electronics and gadgets with technical precision",
+      "date": "2024-05-27",
+      "section": "producto",
+      "featuredImage": "/projects/producto-1-1.svg",
+      "images": [
+        "/projects/producto-1-1.svg",
+        "/projects/producto-1-2.svg",
+        "/projects/producto-1-3.svg",
+        "/projects/producto-1-4.svg"
+      ],
+      "tags": [
+        "Technology",
+        "Clean",
+        "White Background",
+        "Detail"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": true
+    },
+    {
+      "id": "producto-2",
+      "title": "Jewelry Collection",
+      "description": "Luxury jewelry photography with macro detail and elegant presentation",
+      "date": "2024-01-10",
+      "section": "producto",
+      "featuredImage": "/projects/producto-2-1.svg",
+      "images": [
+        "/projects/producto-2-1.svg",
+        "/projects/producto-2-2.svg",
+        "/projects/producto-2-3.svg",
+        "/projects/producto-2-4.svg"
+      ],
+      "tags": [
+        "Jewelry",
+        "Luxury",
+        "Macro",
+        "Elegance"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "producto-3",
+      "title": "Cosmetics Campaign",
+      "description": "Beauty product photography with soft lighting and elegant composition",
+      "date": "2024-10-21",
+      "section": "producto",
+      "featuredImage": "/projects/producto-3-1.svg",
+      "images": [
+        "/projects/producto-3-1.svg",
+        "/projects/producto-3-2.svg",
+        "/projects/producto-3-3.svg",
+        "/projects/producto-3-4.svg"
+      ],
+      "tags": [
+        "Cosmetics",
+        "Beauty",
+        "Soft Light",
+        "Commercial"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "producto-4",
+      "title": "Fashion Accessories",
+      "description": "Stylish product photography for fashion accessories and leather goods",
+      "date": "2024-11-18",
+      "section": "producto",
+      "featuredImage": "/projects/producto-4-1.svg",
+      "images": [
+        "/projects/producto-4-1.svg",
+        "/projects/producto-4-2.svg",
+        "/projects/producto-4-3.svg",
+        "/projects/producto-4-4.svg"
+      ],
+      "tags": [
+        "Fashion",
+        "Accessories",
+        "Leather",
+        "Style"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "producto-5",
+      "title": "Home Decor Items",
+      "description": "Lifestyle product photography for home decoration and furniture",
+      "date": "2024-07-05",
+      "section": "producto",
+      "featuredImage": "/projects/producto-5-1.svg",
+      "images": [
+        "/projects/producto-5-1.svg",
+        "/projects/producto-5-2.svg",
+        "/projects/producto-5-3.svg",
+        "/projects/producto-5-4.svg"
+      ],
+      "tags": [
+        "Home Decor",
+        "Furniture",
+        "Lifestyle",
+        "Interior"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "producto-6",
+      "title": "Sports Equipment",
+      "description": "Dynamic product photography showcasing athletic gear and equipment",
+      "date": "2024-08-17",
+      "section": "producto",
+      "featuredImage": "/projects/producto-6-1.svg",
+      "images": [
+        "/projects/producto-6-1.svg",
+        "/projects/producto-6-2.svg",
+        "/projects/producto-6-3.svg",
+        "/projects/producto-6-4.svg"
+      ],
+      "tags": [
+        "Sports",
+        "Athletic",
+        "Dynamic",
+        "Action"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "producto-7",
+      "title": "Gourmet Food Products",
+      "description": "Appetizing product photography for premium food and beverage brands",
+      "date": "2024-10-12",
+      "section": "producto",
+      "featuredImage": "/projects/producto-7-1.svg",
+      "images": [
+        "/projects/producto-7-1.svg",
+        "/projects/producto-7-2.svg",
+        "/projects/producto-7-3.svg",
+        "/projects/producto-7-4.svg"
+      ],
+      "tags": [
+        "Food",
+        "Gourmet",
+        "Premium",
+        "Appetizing"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "producto-8",
+      "title": "Watch Collection",
+      "description": "Precision photography highlighting craftsmanship of luxury timepieces",
+      "date": "2024-08-24",
+      "section": "producto",
+      "featuredImage": "/projects/producto-8-1.svg",
+      "images": [
+        "/projects/producto-8-1.svg",
+        "/projects/producto-8-2.svg",
+        "/projects/producto-8-3.svg",
+        "/projects/producto-8-4.svg"
+      ],
+      "tags": [
+        "Watches",
+        "Luxury",
+        "Precision",
+        "Craftsmanship"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "producto-9",
+      "title": "Automotive Parts",
+      "description": "Technical product photography for automotive components and accessories",
+      "date": "2024-05-04",
+      "section": "producto",
+      "featuredImage": "/projects/producto-9-1.svg",
+      "images": [
+        "/projects/producto-9-1.svg",
+        "/projects/producto-9-2.svg",
+        "/projects/producto-9-3.svg",
+        "/projects/producto-9-4.svg"
+      ],
+      "tags": [
+        "Automotive",
+        "Technical",
+        "Parts",
+        "Industrial"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "producto-10",
+      "title": "Artisan Crafts",
+      "description": "Handmade product photography celebrating artisan craftsmanship",
+      "date": "2024-03-18",
+      "section": "producto",
+      "featuredImage": "/projects/producto-10-1.svg",
+      "images": [
+        "/projects/producto-10-1.svg",
+        "/projects/producto-10-2.svg",
+        "/projects/producto-10-3.svg",
+        "/projects/producto-10-4.svg"
+      ],
+      "tags": [
+        "Artisan",
+        "Handmade",
+        "Crafts",
+        "Authentic"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    }
+  ],
+  "institucional": [
+    {
+      "id": "institucional-1",
+      "title": "Corporate Brand Video",
+      "description": "Professional corporate video showcasing company values and culture",
+      "date": "2024-08-11",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-1-1.svg",
+      "images": [
+        "/projects/institucional-1-1.svg",
+        "/projects/institucional-1-2.svg",
+        "/projects/institucional-1-3.svg",
+        "/projects/institucional-1-4.svg"
+      ],
+      "tags": [
+        "Corporate",
+        "Video",
+        "Branding",
+        "Culture"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": true
+    },
+    {
+      "id": "institucional-2",
+      "title": "Annual Report Photography",
+      "description": "Executive photography and facility documentation for annual reports",
+      "date": "2024-09-08",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-2-1.svg",
+      "images": [
+        "/projects/institucional-2-1.svg",
+        "/projects/institucional-2-2.svg",
+        "/projects/institucional-2-3.svg",
+        "/projects/institucional-2-4.svg"
+      ],
+      "tags": [
+        "Annual Report",
+        "Executive",
+        "Documentation",
+        "Professional"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "institucional-3",
+      "title": "University Campus Tour",
+      "description": "Comprehensive visual documentation of educational facilities",
+      "date": "2024-07-05",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-3-1.svg",
+      "images": [
+        "/projects/institucional-3-1.svg",
+        "/projects/institucional-3-2.svg",
+        "/projects/institucional-3-3.svg",
+        "/projects/institucional-3-4.svg"
+      ],
+      "tags": [
+        "Education",
+        "Campus",
+        "Facilities",
+        "Documentation"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "institucional-4",
+      "title": "Healthcare Facility",
+      "description": "Professional photography of medical facilities and healthcare services",
+      "date": "2024-03-14",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-4-1.svg",
+      "images": [
+        "/projects/institucional-4-1.svg",
+        "/projects/institucional-4-2.svg",
+        "/projects/institucional-4-3.svg",
+        "/projects/institucional-4-4.svg"
+      ],
+      "tags": [
+        "Healthcare",
+        "Medical",
+        "Facilities",
+        "Professional"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "institucional-5",
+      "title": "Government Institution",
+      "description": "Official photography for government buildings and public services",
+      "date": "2024-07-10",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-5-1.svg",
+      "images": [
+        "/projects/institucional-5-1.svg",
+        "/projects/institucional-5-2.svg",
+        "/projects/institucional-5-3.svg",
+        "/projects/institucional-5-4.svg"
+      ],
+      "tags": [
+        "Government",
+        "Official",
+        "Public",
+        "Institutional"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "institucional-6",
+      "title": "Non-Profit Campaign",
+      "description": "Impactful visual storytelling for non-profit organization mission",
+      "date": "2024-06-16",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-6-1.svg",
+      "images": [
+        "/projects/institucional-6-1.svg",
+        "/projects/institucional-6-2.svg",
+        "/projects/institucional-6-3.svg",
+        "/projects/institucional-6-4.svg"
+      ],
+      "tags": [
+        "Non-Profit",
+        "Mission",
+        "Storytelling",
+        "Impact"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "institucional-7",
+      "title": "Financial Services",
+      "description": "Professional imagery for banking and financial institutions",
+      "date": "2024-04-15",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-7-1.svg",
+      "images": [
+        "/projects/institucional-7-1.svg",
+        "/projects/institucional-7-2.svg",
+        "/projects/institucional-7-3.svg",
+        "/projects/institucional-7-4.svg"
+      ],
+      "tags": [
+        "Finance",
+        "Banking",
+        "Professional",
+        "Trust"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "institucional-8",
+      "title": "Technology Company",
+      "description": "Modern corporate photography for tech startup and innovation",
+      "date": "2024-02-23",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-8-1.svg",
+      "images": [
+        "/projects/institucional-8-1.svg",
+        "/projects/institucional-8-2.svg",
+        "/projects/institucional-8-3.svg",
+        "/projects/institucional-8-4.svg"
+      ],
+      "tags": [
+        "Technology",
+        "Startup",
+        "Innovation",
+        "Modern"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "institucional-9",
+      "title": "Manufacturing Facility",
+      "description": "Industrial photography documenting production and quality processes",
+      "date": "2024-06-12",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-9-1.svg",
+      "images": [
+        "/projects/institucional-9-1.svg",
+        "/projects/institucional-9-2.svg",
+        "/projects/institucional-9-3.svg",
+        "/projects/institucional-9-4.svg"
+      ],
+      "tags": [
+        "Manufacturing",
+        "Industrial",
+        "Process",
+        "Quality"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "institucional-10",
+      "title": "Hospitality Brand",
+      "description": "Luxury hotel and restaurant photography for marketing materials",
+      "date": "2024-03-04",
+      "section": "institucional",
+      "featuredImage": "/projects/institucional-10-1.svg",
+      "images": [
+        "/projects/institucional-10-1.svg",
+        "/projects/institucional-10-2.svg",
+        "/projects/institucional-10-3.svg",
+        "/projects/institucional-10-4.svg"
+      ],
+      "tags": [
+        "Hospitality",
+        "Luxury",
+        "Hotel",
+        "Restaurant"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    }
+  ],
+  "art-direction": [
+    {
+      "id": "art-direction-1",
+      "title": "Music Video Direction",
+      "description": "Complete art direction for international music video production",
+      "date": "2024-03-05",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-1-1.svg",
+      "images": [
+        "/projects/art-direction-1-1.svg",
+        "/projects/art-direction-1-2.svg",
+        "/projects/art-direction-1-3.svg",
+        "/projects/art-direction-1-4.svg"
+      ],
+      "tags": [
+        "Music Video",
+        "Direction",
+        "Concept",
+        "Production"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": true
+    },
+    {
+      "id": "art-direction-2",
+      "title": "Commercial Campaign",
+      "description": "Art direction for multi-platform advertising campaign",
+      "date": "2024-08-15",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-2-1.svg",
+      "images": [
+        "/projects/art-direction-2-1.svg",
+        "/projects/art-direction-2-2.svg",
+        "/projects/art-direction-2-3.svg",
+        "/projects/art-direction-2-4.svg"
+      ],
+      "tags": [
+        "Commercial",
+        "Advertising",
+        "Campaign",
+        "Multi-Platform"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "art-direction-3",
+      "title": "Film Production Design",
+      "description": "Overall art direction and visual style for feature film",
+      "date": "2024-09-13",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-3-1.svg",
+      "images": [
+        "/projects/art-direction-3-1.svg",
+        "/projects/art-direction-3-2.svg",
+        "/projects/art-direction-3-3.svg",
+        "/projects/art-direction-3-4.svg"
+      ],
+      "tags": [
+        "Film",
+        "Production Design",
+        "Visual Style",
+        "Concept"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "art-direction-4",
+      "title": "Fashion Show Direction",
+      "description": "Complete art direction for runway show and presentation",
+      "date": "2024-01-26",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-4-1.svg",
+      "images": [
+        "/projects/art-direction-4-1.svg",
+        "/projects/art-direction-4-2.svg",
+        "/projects/art-direction-4-3.svg",
+        "/projects/art-direction-4-4.svg"
+      ],
+      "tags": [
+        "Fashion Show",
+        "Runway",
+        "Direction",
+        "Presentation"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "art-direction-5",
+      "title": "Editorial Art Direction",
+      "description": "Creative direction for magazine editorial and photo shoots",
+      "date": "2024-02-03",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-5-1.svg",
+      "images": [
+        "/projects/art-direction-5-1.svg",
+        "/projects/art-direction-5-2.svg",
+        "/projects/art-direction-5-3.svg",
+        "/projects/art-direction-5-4.svg"
+      ],
+      "tags": [
+        "Editorial",
+        "Magazine",
+        "Creative",
+        "Photography"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "art-direction-6",
+      "title": "Brand Launch Event",
+      "description": "Art direction for product launch event and installation",
+      "date": "2024-11-09",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-6-1.svg",
+      "images": [
+        "/projects/art-direction-6-1.svg",
+        "/projects/art-direction-6-2.svg",
+        "/projects/art-direction-6-3.svg",
+        "/projects/art-direction-6-4.svg"
+      ],
+      "tags": [
+        "Event",
+        "Launch",
+        "Installation",
+        "Brand"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "art-direction-7",
+      "title": "Theater Production",
+      "description": "Set and costume design direction for theatrical performance",
+      "date": "2024-11-18",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-7-1.svg",
+      "images": [
+        "/projects/art-direction-7-1.svg",
+        "/projects/art-direction-7-2.svg",
+        "/projects/art-direction-7-3.svg",
+        "/projects/art-direction-7-4.svg"
+      ],
+      "tags": [
+        "Theater",
+        "Stage",
+        "Costume",
+        "Performance"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "art-direction-8",
+      "title": "Exhibition Design",
+      "description": "Curatorial and spatial design for art exhibition",
+      "date": "2024-10-04",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-8-1.svg",
+      "images": [
+        "/projects/art-direction-8-1.svg",
+        "/projects/art-direction-8-2.svg",
+        "/projects/art-direction-8-3.svg",
+        "/projects/art-direction-8-4.svg"
+      ],
+      "tags": [
+        "Exhibition",
+        "Curatorial",
+        "Spatial Design",
+        "Art"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "art-direction-9",
+      "title": "Festival Art Direction",
+      "description": "Overall visual identity and art direction for cultural festival",
+      "date": "2024-11-21",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-9-1.svg",
+      "images": [
+        "/projects/art-direction-9-1.svg",
+        "/projects/art-direction-9-2.svg",
+        "/projects/art-direction-9-3.svg",
+        "/projects/art-direction-9-4.svg"
+      ],
+      "tags": [
+        "Festival",
+        "Cultural",
+        "Identity",
+        "Direction"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    },
+    {
+      "id": "art-direction-10",
+      "title": "Digital Content Series",
+      "description": "Art direction for web series and digital content production",
+      "date": "2024-09-12",
+      "section": "art-direction",
+      "featuredImage": "/projects/art-direction-10-1.svg",
+      "images": [
+        "/projects/art-direction-10-1.svg",
+        "/projects/art-direction-10-2.svg",
+        "/projects/art-direction-10-3.svg",
+        "/projects/art-direction-10-4.svg"
+      ],
+      "tags": [
+        "Digital",
+        "Web Series",
+        "Content",
+        "Online"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false
+    }
+  ],
+  "rental": [
+    {
+      "id": "rental-1",
+      "title": "Vintage Furniture Collection",
+      "description": "Curated collection of vintage furniture pieces available for rental",
+      "date": "2024-09-19",
+      "section": "rental",
+      "featuredImage": "/projects/rental-1-1.svg",
+      "images": [
+        "/projects/rental-1-1.svg",
+        "/projects/rental-1-2.svg",
+        "/projects/rental-1-3.svg",
+        "/projects/rental-1-4.svg"
+      ],
+      "tags": [
+        "Vintage",
+        "Furniture",
+        "Props",
+        "Period"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": true,
+      "pricePerDay": 186
+    },
+    {
+      "id": "rental-2",
+      "title": "Industrial Equipment",
+      "description": "Industrial props and equipment for authentic factory scenes",
+      "date": "2024-08-14",
+      "section": "rental",
+      "featuredImage": "/projects/rental-2-1.svg",
+      "images": [
+        "/projects/rental-2-1.svg",
+        "/projects/rental-2-2.svg",
+        "/projects/rental-2-3.svg",
+        "/projects/rental-2-4.svg"
+      ],
+      "tags": [
+        "Industrial",
+        "Equipment",
+        "Props",
+        "Authentic"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 186
+    },
+    {
+      "id": "rental-3",
+      "title": "Lighting Equipment",
+      "description": "Professional lighting gear and fixtures for film and photography",
+      "date": "2024-03-18",
+      "section": "rental",
+      "featuredImage": "/projects/rental-3-1.svg",
+      "images": [
+        "/projects/rental-3-1.svg",
+        "/projects/rental-3-2.svg",
+        "/projects/rental-3-3.svg",
+        "/projects/rental-3-4.svg"
+      ],
+      "tags": [
+        "Lighting",
+        "Equipment",
+        "Professional",
+        "Technical"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 107
+    },
+    {
+      "id": "rental-4",
+      "title": "Period Props 1920s-1950s",
+      "description": "Authentic period props and decorative items from early 20th century",
+      "date": "2024-02-16",
+      "section": "rental",
+      "featuredImage": "/projects/rental-4-1.svg",
+      "images": [
+        "/projects/rental-4-1.svg",
+        "/projects/rental-4-2.svg",
+        "/projects/rental-4-3.svg",
+        "/projects/rental-4-4.svg"
+      ],
+      "tags": [
+        "Period Props",
+        "Vintage",
+        "20th Century",
+        "Authentic"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 95
+    },
+    {
+      "id": "rental-5",
+      "title": "Modern Office Furniture",
+      "description": "Contemporary office furniture and equipment for corporate scenes",
+      "date": "2024-11-14",
+      "section": "rental",
+      "featuredImage": "/projects/rental-5-1.svg",
+      "images": [
+        "/projects/rental-5-1.svg",
+        "/projects/rental-5-2.svg",
+        "/projects/rental-5-3.svg",
+        "/projects/rental-5-4.svg"
+      ],
+      "tags": [
+        "Modern",
+        "Office",
+        "Corporate",
+        "Contemporary"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 121
+    },
+    {
+      "id": "rental-6",
+      "title": "Restaurant Equipment",
+      "description": "Professional kitchen and dining equipment for food scenes",
+      "date": "2024-09-10",
+      "section": "rental",
+      "featuredImage": "/projects/rental-6-1.svg",
+      "images": [
+        "/projects/rental-6-1.svg",
+        "/projects/rental-6-2.svg",
+        "/projects/rental-6-3.svg",
+        "/projects/rental-6-4.svg"
+      ],
+      "tags": [
+        "Restaurant",
+        "Kitchen",
+        "Dining",
+        "Professional"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 174
+    },
+    {
+      "id": "rental-7",
+      "title": "Decorative Art Pieces",
+      "description": "Curated selection of artwork and decorative pieces",
+      "date": "2024-02-18",
+      "section": "rental",
+      "featuredImage": "/projects/rental-7-1.svg",
+      "images": [
+        "/projects/rental-7-1.svg",
+        "/projects/rental-7-2.svg",
+        "/projects/rental-7-3.svg",
+        "/projects/rental-7-4.svg"
+      ],
+      "tags": [
+        "Art",
+        "Decorative",
+        "Curated",
+        "Design"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 98
+    },
+    {
+      "id": "rental-8",
+      "title": "Outdoor Furniture",
+      "description": "Garden and patio furniture for exterior scenes",
+      "date": "2024-04-09",
+      "section": "rental",
+      "featuredImage": "/projects/rental-8-1.svg",
+      "images": [
+        "/projects/rental-8-1.svg",
+        "/projects/rental-8-2.svg",
+        "/projects/rental-8-3.svg",
+        "/projects/rental-8-4.svg"
+      ],
+      "tags": [
+        "Outdoor",
+        "Garden",
+        "Patio",
+        "Exterior"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 119
+    },
+    {
+      "id": "rental-9",
+      "title": "Specialty Props",
+      "description": "Unique and specialty props for specific production needs",
+      "date": "2024-12-22",
+      "section": "rental",
+      "featuredImage": "/projects/rental-9-1.svg",
+      "images": [
+        "/projects/rental-9-1.svg",
+        "/projects/rental-9-2.svg",
+        "/projects/rental-9-3.svg",
+        "/projects/rental-9-4.svg"
+      ],
+      "tags": [
+        "Specialty",
+        "Unique",
+        "Custom",
+        "Props"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 195
+    },
+    {
+      "id": "rental-10",
+      "title": "Modular Set Pieces",
+      "description": "Versatile modular set pieces for flexible scene construction",
+      "date": "2024-05-11",
+      "section": "rental",
+      "featuredImage": "/projects/rental-10-1.svg",
+      "images": [
+        "/projects/rental-10-1.svg",
+        "/projects/rental-10-2.svg",
+        "/projects/rental-10-3.svg",
+        "/projects/rental-10-4.svg"
+      ],
+      "tags": [
+        "Modular",
+        "Versatile",
+        "Set Pieces",
+        "Flexible"
+      ],
+      "reflection": "This project presented unique challenges that pushed our creative boundaries. Working closely with the production team, we developed innovative solutions that enhanced the overall visual narrative. The attention to detail and commitment to authenticity resulted in a compelling final product that exceeded expectations. This experience reinforced our dedication to excellence in every aspect of production design and execution.",
+      "featured": false,
+      "pricePerDay": 173
+    }
+  ]
+}
