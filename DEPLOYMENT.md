@@ -15,7 +15,7 @@ This guide will help you deploy the Art Department Studio website to Vercel.
 You'll need to configure these environment variables in Vercel:
 
 ```env
-MONGODB_URI=mongodb+srv://carloscastel_db_user:R5OhABGjJHeD7wDS@art-department-studio.eiot7od.mongodb.net/?appName=art-department-studio
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-host>/<db>?retryWrites=true&w=majority
 JWT_SECRET=your-secret-key-change-this-in-production
 NEXT_PUBLIC_API_URL=https://your-domain.vercel.app
 ```

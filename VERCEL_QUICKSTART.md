@@ -24,7 +24,8 @@ Cuando Vercel te lo pida, o después del deploy, agrega estas variables:
 
 ```bash
 vercel env add MONGODB_URI production
-# Pegar: mongodb+srv://carloscastel_db_user:R5OhABGjJHeD7wDS@art-department-studio.eiot7od.mongodb.net/?appName=art-department-studio
+# Pegar tu string de conexión (NO lo hardcodees en el repo)
+# Ejemplo: mongodb+srv://<username>:<password>@<cluster-host>/<db>?retryWrites=true&w=majority
 
 vercel env add JWT_SECRET production
 # Generar uno nuevo con: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
