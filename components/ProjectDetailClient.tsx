@@ -132,7 +132,7 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
               return (
                 <div
                   key={index}
-                  className={`relative aspect-video rounded-lg overflow-hidden bg-gray-900 ${!isVideo ? 'cursor-pointer hover:opacity-90 transition-opacity' : ''}`}
+                  className={`relative aspect-video overflow-hidden bg-gray-900 border-[3px] border-white ${!isVideo ? 'cursor-pointer hover:opacity-90 transition-opacity' : ''}`}
                   onClick={() => !isVideo && openLightbox(item.url)}
                 >
                   {isVideo ? (
