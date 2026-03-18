@@ -50,7 +50,7 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
 
       {/* Hero Media */}
       {project.heroMedia && (
-        <div className="relative w-full h-[600px] rounded-lg overflow-hidden mb-12">
+        <div className="relative w-full h-[600px] overflow-hidden mb-12">
           {project.heroMedia.match(/\.(mp4|mov|avi|webm)$/i) ? (
             <video
               src={project.heroMedia}
@@ -70,51 +70,53 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
 
       {/* Project Header */}
       <div className="mb-12">
-        <h1 className="text-5xl font-bold mb-4 text-white">
-          {project.title}
-        </h1>
-        <p className="text-xl text-gray-400 mb-6">
-          {project.description}
-        </p>
-        <div className="flex items-center gap-4">
-          <p className="text-gray-500">
-            {project.client} • {project.year}
-          </p>
-          {project.pricePerDay && (
-            <>
-              <span className="text-gray-600">•</span>
-              <p className="text-accent-blue font-bold text-2xl">
-                €{project.pricePerDay}/day
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-10">
+          <div className="max-w-4xl">
+            <h1 className="text-5xl font-bold mb-4 text-white">
+              {project.title}
+            </h1>
+            <p className="text-xl text-gray-400 mb-6">
+              {project.description}
+            </p>
+            <div className="flex items-center gap-4">
+              <p className="text-gray-500">
+                {project.client} • {project.year}
               </p>
-            </>
+              {project.pricePerDay && (
+                <>
+                  <span className="text-gray-600">•</span>
+                  <p className="text-accent-blue font-bold text-2xl">
+                    €{project.pricePerDay}/day
+                  </p>
+                </>
+              )}
+            </div>
+          </div>
+
+          {project.tags && project.tags.length > 0 && (
+            <div className="lg:min-w-[320px] lg:max-w-[420px] text-left lg:text-right">
+              <h3 className="text-white font-bold text-[20px] mb-4">Tasks Performed</h3>
+              <div className="flex flex-wrap gap-3 justify-start lg:justify-end">
+                {project.tags.map((tag: string, index: number) => (
+                  <span
+                    key={index}
+                    className="px-4 py-2 border border-pink-300/70 text-pink-200 text-sm font-medium bg-transparent"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
           )}
         </div>
       </div>
 
-      {/* Tags */}
-      {project.tags && project.tags.length > 0 && (
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-white mb-4">Tasks Performed</h3>
-          <div className="flex flex-wrap gap-2">
-            {project.tags.map((tag: string, index: number) => (
-              <span
-                key={index}
-                className="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full text-sm font-medium"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Reflection */}
       {project.reflection && (
         <div className="mb-12 max-w-4xl">
-          <h2 className="text-3xl font-bold mb-6 text-white">
-            Reflection and Learning
+          <h2 className="text-white font-bold text-[20px] mb-4">
+            More about this project
           </h2>
-          <p className="text-gray-300 text-lg leading-relaxed whitespace-pre-line">
+          <p className="text-gray-300 text-[16px] font-normal leading-relaxed whitespace-pre-line">
             {project.reflection}
           </p>
         </div>
