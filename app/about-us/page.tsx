@@ -1,43 +1,43 @@
 import Image from 'next/image';
 import { Linkedin, ExternalLink } from 'lucide-react';
 import { TeamMember } from '@/types';
+import clientPromise from '@/lib/db';
 
-// Mock data - Replace with actual database queries
-const partners: TeamMember[] = [
-  {
-    id: '1',
-    name: 'Agustina Santinelli',
-    role: 'Sculptor',
-    image: '/team/agustina.jpg',
-    portfolio: 'https://agustinasantinelli.com',
-    linkedin: 'https://linkedin.com/in/agustinasantinelli',
-    isPartner: true,
-  },
-  {
-    id: '2',
-    name: 'Xim Barrasa',
-    role: 'Sculptor',
-    image: '/team/xim.jpg',
-    portfolio: 'https://ximbarrasa.com',
-    linkedin: 'https://linkedin.com/in/ximbarrasa',
-    isPartner: true,
-  },
-  {
-    id: '3',
-    name: 'Carlos Castel',
-    role: 'Photographer',
-    image: '/team/carlos.jpg',
-    portfolio: 'https://carloscastel.com',
-    linkedin: 'https://linkedin.com/in/carloscastel',
-    isPartner: true,
-  },
-];
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
-const collaborators: TeamMember[] = [
-  // Add collaborators here
-];
+async function getTeamMembers(): Promise<TeamMember[]> {
+  try {
+    const client = await clientPromise;
+    const db = client.db();
 
-export default function AboutUsPage() {
+    const members = await db
+      .collection('team')
+      .find({})
+      .sort({ order: 1, isPartner: -1, createdAt: 1 })
+      .limit(4)
+      .toArray();
+
+    return members.map((m: any) => ({
+      id: m._id?.toString(),
+      name: m.name,
+      role: m.role,
+      bio: m.bio,
+      imageUrl: m.imageUrl,
+      portfolio: m.portfolio || '',
+      linkedin: m.linkedin || '',
+      isPartner: !!m.isPartner,
+      order: typeof m.order === 'number' ? m.order : 0,
+    }));
+  } catch (error) {
+    console.error('Error fetching team:', error);
+    return [];
+  }
+}
+
+export default async function AboutUsPage() {
+  const members = await getTeamMembers();
+
   return (
     <div className="min-h-screen pt-32 pb-20 px-6 max-w-7xl mx-auto">
       {/* Header */}
@@ -63,42 +63,49 @@ export default function AboutUsPage() {
         <h2 className="text-white mb-16">
           Founding Partners
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          {partners.map((partner) => (
-            <div key={partner.id} className="group">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          {members.map((member) => (
+            <div key={member.id} className="group">
               <div className="relative aspect-square mb-6 overflow-hidden bg-white/5">
-                <Image
-                  src={partner.image}
-                  alt={partner.name}
-                  fill
-                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                />
+                {member.imageUrl || member.image ? (
+                  <Image
+                    src={member.imageUrl || member.image || ''}
+                    alt={member.name}
+                    fill
+                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  />
+                ) : (
+                  <div className="absolute inset-0" />
+                )}
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                {partner.name}
+                {member.name}
               </h3>
               <p className="text-lg text-gray-400 mb-4">
-                {partner.role}
+                {member.role}
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                {member.bio}
               </p>
               <div className="flex gap-4">
-                {partner.portfolio && (
+                {member.portfolio && (
                   <a
-                    href={partner.portfolio}
+                    href={member.portfolio}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"
-                    aria-label={`Portfolio de ${partner.name}`}
+                    aria-label={`Portfolio de ${member.name}`}
                   >
                     <ExternalLink size={24} />
                   </a>
                 )}
-                {partner.linkedin && (
+                {member.linkedin && (
                   <a
-                    href={partner.linkedin}
+                    href={member.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"
-                    aria-label={`LinkedIn de ${partner.name}`}
+                    aria-label={`LinkedIn de ${member.name}`}
                   >
                     <Linkedin size={24} />
                   </a>
@@ -108,59 +115,6 @@ export default function AboutUsPage() {
           ))}
         </div>
       </div>
-
-      {/* Collaborators */}
-      {collaborators.length > 0 && (
-        <div>
-          <h2 className="text-white mb-16">
-            Collaborators
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            {collaborators.map((collaborator) => (
-              <div key={collaborator.id} className="group">
-                <div className="relative aspect-square mb-4 overflow-hidden bg-white/5">
-                  <Image
-                    src={collaborator.image}
-                    alt={collaborator.name}
-                    fill
-                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                  />
-                </div>
-                <h4 className="text-base font-bold text-white mb-1">
-                  {collaborator.name}
-                </h4>
-                <p className="text-sm text-gray-400 mb-3">
-                  {collaborator.role}
-                </p>
-                <div className="flex gap-3">
-                  {collaborator.portfolio && (
-                    <a
-                      href={collaborator.portfolio}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-white transition-colors"
-                      aria-label={`Portfolio de ${collaborator.name}`}
-                    >
-                      <ExternalLink size={18} />
-                    </a>
-                  )}
-                  {collaborator.linkedin && (
-                    <a
-                      href={collaborator.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-white transition-colors"
-                      aria-label={`LinkedIn de ${collaborator.name}`}
-                    >
-                      <Linkedin size={18} />
-                    </a>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 }

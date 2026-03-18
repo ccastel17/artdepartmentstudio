@@ -35,10 +35,13 @@ export interface TeamMember {
   id: string;
   name: string;
   role: string;
-  image: string;
+  bio: string;
+  imageUrl: string;
+  image?: string;
   portfolio?: string;
   linkedin?: string;
   isPartner: boolean;
+  order?: number;
 }
 
 export interface GalleryPost {
