@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white py-16">
+    <footer className="border-t-[3px] border-white py-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex justify-between items-start gap-12 mb-12">
           {/* Logo y descripción */}
@@ -114,7 +114,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="pt-8 border-t border-white text-center">
+        <div className="pt-8 border-t-[3px] border-white text-center">
           <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Art Department Studio. All rights reserved.
           </p>
