@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     }
 
     const body = await request.json();
-    const { title, description, client, year, section, featured, images, heroMedia, tags, reflection, categories, media } = body;
+    const { title, description, client, year, section, featured, images, heroMedia, tags, reflection, categories, media, pricePerDay } = body;
 
     console.log('📥 Creating project:', { title, section });
 
@@ -39,6 +39,18 @@ export async function POST(request: Request) {
       ? parsedMedia.map((m: any) => m?.url).filter(Boolean)
       : parsedImages;
 
+    const parsedPricePerDay =
+      typeof pricePerDay === 'number'
+        ? pricePerDay
+        : (typeof pricePerDay === 'string' && pricePerDay.trim() !== '' ? Number(pricePerDay) : undefined);
+
+    if (typeof parsedPricePerDay === 'number' && (Number.isNaN(parsedPricePerDay) || parsedPricePerDay < 0)) {
+      return NextResponse.json(
+        { error: 'Invalid pricePerDay' },
+        { status: 400 }
+      );
+    }
+
     const project = {
       title,
       description,
@@ -52,6 +64,7 @@ export async function POST(request: Request) {
       tags: Array.isArray(tags) ? tags : (tags ? JSON.parse(tags) : []),
       categories: Array.isArray(categories) ? categories : (categories ? JSON.parse(categories) : []),
       reflection: reflection || '',
+      pricePerDay: typeof parsedPricePerDay === 'number' ? parsedPricePerDay : undefined,
       createdAt: new Date(),
       updatedAt: new Date(),
     };

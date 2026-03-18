@@ -27,6 +27,7 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
     year: new Date().getFullYear(),
     featured: false,
     reflection: '',
+    pricePerDay: '' as number | '',
   });
   
   const [images, setImages] = useState<string[]>([]);
@@ -85,6 +86,7 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
         year: initialData.year || new Date().getFullYear(),
         featured: initialData.featured || false,
         reflection: initialData.reflection || '',
+        pricePerDay: typeof initialData.pricePerDay === 'number' ? initialData.pricePerDay : '',
       });
       setImages(initialData.images || []);
       setHeroMedia(initialData.heroMedia || '');
@@ -105,6 +107,7 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
         year: new Date().getFullYear(),
         featured: false,
         reflection: '',
+        pricePerDay: '',
       });
       setImages([]);
       setHeroMedia('');
@@ -198,6 +201,7 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
           year: new Date().getFullYear(),
           featured: false,
           reflection: '',
+          pricePerDay: '',
         });
         setImages([]);
         setHeroMedia('');
@@ -299,6 +303,27 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
           className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-accent-blue"
         />
       </div>
+
+      {section === 'rental' && (
+        <div>
+          <label htmlFor="pricePerDay" className="block text-sm font-medium text-gray-300 mb-2">
+            Price per day (€)
+          </label>
+          <input
+            type="number"
+            id="pricePerDay"
+            min="0"
+            step="1"
+            value={formData.pricePerDay}
+            onChange={(e) => {
+              const raw = e.target.value;
+              setFormData({ ...formData, pricePerDay: raw === '' ? '' : Number(raw) });
+            }}
+            className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-accent-blue"
+            placeholder="e.g. 150"
+          />
+        </div>
+      )}
 
       {/* Featured */}
       <div className="flex items-center gap-3">
