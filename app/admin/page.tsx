@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Hammer, Camera, Palette, Key, Image, Users, Mail, LogOut } from 'lucide-react';
+import { Hammer, Camera, Palette, Key, Image, Users, Mail, LogOut, Settings } from 'lucide-react';
 
 const sections = [
   { href: '/admin/set-buildings', title: 'Set Buildings', icon: Hammer },
@@ -9,6 +9,7 @@ const sections = [
   { href: '/admin/gallery', title: 'Gallery', icon: Image },
   { href: '/admin/team', title: 'Team', icon: Users },
   { href: '/admin/contacts', title: 'Messages', icon: Mail },
+  { href: '/admin/settings', title: 'Settings', icon: Settings },
 ];
 
 export default function AdminDashboard() {

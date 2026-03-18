@@ -26,6 +26,20 @@ async function getLatestProjects() {
   }
 }
 
+async function getHomeHeroVideoUrl() {
+  try {
+    const client = await clientPromise;
+    const db = client.db();
+
+    const collection = db.collection<{ _id: string; homeHeroVideoUrl?: string }>('site_settings');
+    const doc = await collection.findOne({ _id: 'global' });
+    return doc?.homeHeroVideoUrl || '';
+  } catch (error) {
+    console.error('Error fetching home hero video url:', error);
+    return '';
+  }
+}
+
 const sections = [
   {
     href: '/set-buildings',
@@ -55,21 +69,24 @@ const sections = [
 
 export default async function Home() {
   const latestProjects = await getLatestProjects();
+  const homeHeroVideoUrl = await getHomeHeroVideoUrl();
   
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center overflow-hidden border-b-4 border-white">
         {/* Video Background */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover grayscale opacity-50"
-        >
-          <source src="/home/media/01.MOV" type="video/mp4" />
-        </video>
+        {homeHeroVideoUrl && (
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover grayscale opacity-50"
+          >
+            <source src={homeHeroVideoUrl} type="video/mp4" />
+          </video>
+        )}
         
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50" />
