@@ -47,13 +47,13 @@ export default async function GalleryPage() {
       <section className="pb-20">
         <div className="max-w-7xl mx-auto px-6">
           {posts.length > 0 ? (
-            <div className="bg-white p-[3px]">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3px] bg-white">
+            <div className="border-[3px] border-white overflow-hidden bg-black">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-black">
                 {posts.map((post) => (
                   <Link
                     key={post.id}
                     href={`/gallery/${post.id}`}
-                    className="group block overflow-hidden bg-black transition-colors"
+                    className="group block overflow-hidden bg-black transition-colors border-[3px] border-white -m-[3px]"
                   >
                     <div className="relative aspect-[4/3] overflow-hidden bg-white/5">
                       <Image

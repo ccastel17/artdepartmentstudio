@@ -91,8 +91,8 @@ export default function FilterableSectionClient({
           <div className="mb-6 text-gray-400">
             Showing {regularProjects.length} {regularProjects.length === 1 ? 'item' : 'items'}
           </div>
-          <div className="bg-white p-[3px]">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3px] bg-white">
+          <div className="border-[3px] border-white overflow-hidden bg-black">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-black">
               {regularProjects.map((project) => (
                 <ProjectCard key={project.id} project={project} />
               ))}
