@@ -107,7 +107,7 @@ export default async function Home() {
             <div className="pt-4">
               <Link
                 href="/about-us"
-                className="inline-block px-8 py-4 bg-cyan-500 text-black font-semibold rounded-full hover:bg-cyan-600 transition-colors"
+                className="inline-block px-6 py-3 bg-cyan-500 text-black font-semibold hover:bg-cyan-600 transition-colors"
               >
                 Learn more about us
               </Link>

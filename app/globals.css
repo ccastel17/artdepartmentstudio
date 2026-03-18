@@ -6,6 +6,14 @@
   body {
     @apply bg-black text-white antialiased;
   }
+
+  button,
+  a,
+  input[type='button'],
+  input[type='submit'],
+  input[type='reset'] {
+    border-radius: 0 !important;
+  }
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold tracking-tight;
