@@ -21,6 +21,8 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
 
   const isVideoUrl = (url: string) => !!url.match(/\.(mp4|mov|avi|webm)$/i);
 
+  const isRental = section === 'rental';
+
   const resolvedMedia: MediaItem[] = (project.media && project.media.length > 0)
     ? project.media
     : (project.images || []).map((url: string) => ({ url, type: isVideoUrl(url) ? 'video' : 'image' }));
@@ -97,7 +99,25 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
             </div>
           </div>
 
-          {project.tags && project.tags.length > 0 && (
+          {isRental ? (
+            project.categories && project.categories.length > 0 && (
+              <div className="lg:min-w-[320px] lg:max-w-[420px] text-left lg:text-right">
+                <h3 className="text-white font-bold text-[20px] mb-4">Categories</h3>
+                <div className="flex flex-wrap gap-3 justify-start lg:justify-end">
+                  {project.categories.map((cat: string, index: number) => (
+                    <Link
+                      key={`${cat}-${index}`}
+                      href={`/rental?category=${encodeURIComponent(cat)}`}
+                      className="px-4 py-2 border border-pink-300/70 text-pink-200 text-sm font-medium bg-transparent"
+                    >
+                      {cat}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )
+          ) : (
+            project.tags && project.tags.length > 0 && (
             <div className="lg:min-w-[320px] lg:max-w-[420px] text-left lg:text-right">
               <h3 className="text-white font-bold text-[20px] mb-4">Tasks Performed</h3>
               <div className="flex flex-wrap gap-3 justify-start lg:justify-end">
@@ -111,6 +131,7 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
                 ))}
               </div>
             </div>
+            )
           )}
         </div>
       </div>

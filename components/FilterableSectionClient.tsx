@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { Project } from '@/types';
 import FeaturedProject from '@/components/FeaturedProject';
 import ProjectCard from '@/components/ProjectCard';
@@ -23,6 +23,15 @@ export default function FilterableSectionClient({
 }: FilterableSectionClientProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get('category');
+
+    if (category && categories.includes(category)) {
+      setSelectedCategories([category]);
+    }
+  }, [categories]);
 
   // Filter projects based on search and categories
   const filteredProjects = useMemo(() => {
