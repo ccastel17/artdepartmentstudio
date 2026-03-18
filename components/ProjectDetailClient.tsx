@@ -156,6 +156,10 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
         </div>
       )}
 
+      {resolvedMedia.length > 0 && relatedProjects.length > 0 && (
+        <div className="mb-16 border-t-[3px] border-white" />
+      )}
+
       {/* Related Projects */}
       {relatedProjects.length > 0 && (
         <div>
