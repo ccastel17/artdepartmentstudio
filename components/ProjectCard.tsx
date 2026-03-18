@@ -18,7 +18,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Link
       href={`/${project.section}/${project.id}`}
-      className="group block overflow-hidden bg-black transition-colors border-[3px] border-white -m-[3px]"
+      className="group block overflow-hidden bg-black transition-colors border-[3px] border-white"
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-white/5">
         {isVideo ? (
