@@ -50,10 +50,14 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
 
       {/* Hero Media */}
       {project.heroMedia && (
-        <div className="relative w-full h-[600px] overflow-hidden mb-12">
+        <div className="relative w-full h-[600px] overflow-hidden mb-12 border-[3px] border-white">
           {project.heroMedia.match(/\.(mp4|mov|avi|webm)$/i) ? (
             <video
               src={project.heroMedia}
+              autoPlay
+              loop
+              muted
+              playsInline
               controls
               className="w-full h-full object-cover"
             />
