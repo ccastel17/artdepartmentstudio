@@ -33,7 +33,7 @@ export default function SectionFilters({
           placeholder={searchPlaceholder}
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
-          className="w-full bg-white/5 border border-white rounded-lg pl-12 pr-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-french-blue transition-colors"
+          className="w-full bg-white/5 border-[3px] border-white rounded-none pl-12 pr-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-french-blue transition-colors"
         />
       </div>
 

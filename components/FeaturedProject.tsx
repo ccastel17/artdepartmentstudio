@@ -18,7 +18,7 @@ export default function FeaturedProject({ project }: FeaturedProjectProps) {
   return (
     <Link
       href={`/${project.section}/${project.id}`}
-      className="group relative block h-[70vh] overflow-hidden bg-white/5 border border-white hover:border-white transition-colors"
+      className="group relative block h-[70vh] overflow-hidden bg-white/5 border-[3px] border-white rounded-none hover:border-white transition-colors"
     >
       {isVideo ? (
         <video
