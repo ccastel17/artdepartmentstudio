@@ -139,10 +139,12 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
       )}
 
       {regularProjects.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-black">
-          {regularProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
+        <div className="bg-white p-[3px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3px] bg-white">
+            {regularProjects.map((project) => (
+              <ProjectCard key={project.id} project={project} />
+            ))}
+          </div>
         </div>
       ) : (
         <div className="text-center py-32">

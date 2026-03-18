@@ -18,7 +18,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Link
       href={`/${project.section}/${project.id}`}
-      className="group block overflow-hidden bg-black border border-white hover:border-white transition-colors"
+      className="group block overflow-hidden bg-black transition-colors"
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-white/5">
         {isVideo ? (
@@ -44,7 +44,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           </div>
         )}
       </div>
-      <div className="p-6 border-t border-white">
+      <div className="p-6 border-t-[3px] border-white">
         <h3 className="text-xl font-bold text-white mb-3 group-hover:text-gray-400 transition-colors">
           {project.title}
         </h3>

@@ -93,8 +93,11 @@ export default function ImageUpload({
     formData.append('upload_preset', uploadPreset);
     formData.append('folder', folder);
 
+    const isVideo = file.type?.startsWith('video/');
+    const resourceType = isVideo ? 'video' : 'image';
+
     const response = await fetch(
-      `https://api.cloudinary.com/v1_1/${cloudName}/auto/upload`,
+      `https://api.cloudinary.com/v1_1/${cloudName}/${resourceType}/upload`,
       {
         method: 'POST',
         body: formData,

@@ -47,43 +47,45 @@ export default async function GalleryPage() {
       <section className="pb-20">
         <div className="max-w-7xl mx-auto px-6">
           {posts.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-black">
-              {posts.map((post) => (
-                <Link
-                  key={post.id}
-                  href={`/gallery/${post.id}`}
-                  className="group block overflow-hidden bg-black border border-white hover:border-white transition-colors"
-                >
-                  <div className="relative aspect-[4/3] overflow-hidden bg-white/5">
-                    <Image
-                      src={post.heroImage}
-                      alt={post.title}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                  <div className="p-6 border-t border-white space-y-2">
-                    {post.tags && post.tags.length > 0 && (
-                      <div className="flex flex-wrap gap-2">
-                        {post.tags.map((tag: string, index: number) => (
-                          <span
-                            key={index}
-                            className="inline-block px-3 py-1 text-xs font-medium text-white bg-white/10 uppercase tracking-wider"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    )}
-                    <h3 className="text-xl font-bold text-white group-hover:text-gray-400 transition-colors">
-                      {post.title}
-                    </h3>
-                    <p className="text-gray-400 text-sm line-clamp-3">
-                      {post.description}
-                    </p>
-                  </div>
-                </Link>
-              ))}
+            <div className="bg-white p-[3px]">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3px] bg-white">
+                {posts.map((post) => (
+                  <Link
+                    key={post.id}
+                    href={`/gallery/${post.id}`}
+                    className="group block overflow-hidden bg-black transition-colors"
+                  >
+                    <div className="relative aspect-[4/3] overflow-hidden bg-white/5">
+                      <Image
+                        src={post.heroImage}
+                        alt={post.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-6 border-t-[3px] border-white space-y-2">
+                      {post.tags && post.tags.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {post.tags.map((tag: string, index: number) => (
+                            <span
+                              key={index}
+                              className="inline-block px-3 py-1 text-xs font-medium text-white bg-white/10 uppercase tracking-wider"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                      <h3 className="text-xl font-bold text-white group-hover:text-gray-400 transition-colors">
+                        {post.title}
+                      </h3>
+                      <p className="text-gray-400 text-sm line-clamp-3">
+                        {post.description}
+                      </p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
             </div>
           ) : (
             <div className="text-center py-20">

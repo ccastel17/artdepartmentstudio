@@ -3,6 +3,9 @@ import Image from 'next/image';
 import clientPromise from '@/lib/db';
 import { SECTIONS } from '@/lib/constants';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 async function getLatestProjects() {
   try {
     const client = await clientPromise;
