@@ -46,7 +46,7 @@ export default function FeaturedProject({ project }: FeaturedProjectProps) {
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl">
           {project.description}
         </p>
-        <div className="inline-block px-8 py-4 bg-purple-500 text-white font-semibold rounded-full group-hover:bg-purple-600 transition-colors">
+        <div className="inline-block px-6 py-3 bg-cyan-500 text-black font-semibold group-hover:bg-cyan-600 transition-colors">
           View project
         </div>
       </div>
