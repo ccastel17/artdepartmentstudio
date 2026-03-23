@@ -18,9 +18,18 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { title, description, client, year, section, featured, images, heroMedia, tags, reflection, categories, media, pricePerDay } = body;
 
+    const isRental = section === 'rental';
+
     console.log('📥 Creating project:', { title, section });
 
-    if (!title || !description || !client || !section || !heroMedia) {
+    if (
+      !title ||
+      !description ||
+      !section ||
+      (isRental
+        ? (pricePerDay === undefined || pricePerDay === null || (typeof pricePerDay === 'string' && pricePerDay.trim() === ''))
+        : (!client || !heroMedia))
+    ) {
       return NextResponse.json(
         { error: 'Missing required fields' },
         { status: 400 }
@@ -44,6 +53,13 @@ export async function POST(request: Request) {
         ? pricePerDay
         : (typeof pricePerDay === 'string' && pricePerDay.trim() !== '' ? Number(pricePerDay) : undefined);
 
+    if (isRental && typeof parsedPricePerDay !== 'number') {
+      return NextResponse.json(
+        { error: 'Missing required fields' },
+        { status: 400 }
+      );
+    }
+
     if (typeof parsedPricePerDay === 'number' && (Number.isNaN(parsedPricePerDay) || parsedPricePerDay < 0)) {
       return NextResponse.json(
         { error: 'Invalid pricePerDay' },
@@ -54,8 +70,8 @@ export async function POST(request: Request) {
     const project = {
       title,
       description,
-      client,
-      year: parseInt(year),
+      client: client || '',
+      year: (typeof year === 'number' || typeof year === 'string') && String(year).trim() !== '' ? parseInt(String(year)) : undefined,
       section,
       featured: featured === 'true' || featured === true,
       images: resolvedImages,

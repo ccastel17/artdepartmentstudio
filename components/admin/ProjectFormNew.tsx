@@ -20,6 +20,7 @@ interface ProjectFormProps {
 }
 
 export default function ProjectFormNew({ section, onSubmit, initialData, onCancel }: ProjectFormProps) {
+  const isRental = section === 'rental';
   const [formData, setFormData] = useState({
     title: '',
     description: '',
@@ -168,8 +169,12 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
     setLoading(true);
 
     try {
-      if (!heroMedia) {
+      if (!isRental && !heroMedia) {
         throw new Error('Please upload a hero media file');
+      }
+
+      if (isRental && (formData.pricePerDay === '' || Number.isNaN(Number(formData.pricePerDay)))) {
+        throw new Error('Please enter a valid price per day');
       }
 
       const data = {
@@ -274,12 +279,12 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
       {/* Client */}
       <div>
         <label htmlFor="client" className="block text-sm font-medium text-gray-300 mb-2">
-          Client *
+          Client{isRental ? '' : ' *'}
         </label>
         <input
           type="text"
           id="client"
-          required
+          required={!isRental}
           value={formData.client}
           onChange={(e) => setFormData({ ...formData, client: e.target.value })}
           className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-accent-blue"
@@ -290,12 +295,12 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
       {/* Year */}
       <div>
         <label htmlFor="year" className="block text-sm font-medium text-gray-300 mb-2">
-          Year *
+          Year{isRental ? '' : ' *'}
         </label>
         <input
           type="number"
           id="year"
-          required
+          required={!isRental}
           min="1900"
           max="2100"
           value={formData.year}
@@ -307,11 +312,12 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
       {section === 'rental' && (
         <div>
           <label htmlFor="pricePerDay" className="block text-sm font-medium text-gray-300 mb-2">
-            Price per day (€)
+            Price per day (€) *
           </label>
           <input
             type="number"
             id="pricePerDay"
+            required
             min="0"
             step="1"
             value={formData.pricePerDay}
