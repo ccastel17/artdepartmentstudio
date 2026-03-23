@@ -14,7 +14,6 @@ const menuItems = [
   { href: '/rental', label: 'Rental', hoverColor: 'hover:bg-green-500' },
   { href: '/about-us', label: 'About Us', hoverColor: 'hover:bg-cyan-500' },
   { href: '/contact', label: 'Contact', hoverColor: 'hover:bg-yellow-500' },
-  { href: '/gallery', label: 'Gallery', hoverColor: 'hover:bg-red-500' },
 ];
 
 export default function Navbar() {
