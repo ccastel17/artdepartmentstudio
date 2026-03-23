@@ -120,6 +120,7 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
         categories={PHOTOGRAPHY_CATEGORIES}
         searchPlaceholder="Search photography projects..."
         showSearch={false}
+        showCategories={false}
       />
     );
   }

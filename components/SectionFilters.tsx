@@ -11,6 +11,7 @@ interface SectionFiltersProps {
   categories: string[];
   searchPlaceholder?: string;
   showSearch?: boolean;
+  showCategories?: boolean;
 }
 
 export default function SectionFilters({
@@ -21,7 +22,8 @@ export default function SectionFilters({
   onClearFilters,
   categories,
   searchPlaceholder = 'Search items...',
-  showSearch = true
+  showSearch = true,
+  showCategories = true
 }: SectionFiltersProps) {
   const hasActiveFilters = searchTerm || selectedCategories.length > 0;
 
@@ -42,39 +44,41 @@ export default function SectionFilters({
       )}
 
       {/* Category Filters */}
-      <div>
-        <div className="flex items-center justify-between mb-4">
-          <h3 className="text-lg font-semibold text-white">Filter by Category</h3>
-          {hasActiveFilters && (
-            <button
-              onClick={onClearFilters}
-              className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
-            >
-              <X size={16} />
-              Clear filters
-            </button>
-          )}
-        </div>
-        
-        <div className="flex flex-wrap gap-3">
-          {categories.map((category) => {
-            const isSelected = selectedCategories.includes(category);
-            return (
+      {showCategories && (
+        <div>
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-semibold text-white">Filter by Category</h3>
+            {hasActiveFilters && (
               <button
-                key={category}
-                onClick={() => onCategoryToggle(category)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                  isSelected
-                    ? 'bg-french-blue text-white'
-                    : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white border border-white'
-                }`}
+                onClick={onClearFilters}
+                className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
               >
-                {category}
+                <X size={16} />
+                Clear filters
               </button>
-            );
-          })}
+            )}
+          </div>
+          
+          <div className="flex flex-wrap gap-3">
+            {categories.map((category) => {
+              const isSelected = selectedCategories.includes(category);
+              return (
+                <button
+                  key={category}
+                  onClick={() => onCategoryToggle(category)}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                    isSelected
+                      ? 'bg-french-blue text-white'
+                      : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white border border-white'
+                  }`}
+                >
+                  {category}
+                </button>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Active Filters Count */}
       {hasActiveFilters && (

@@ -13,6 +13,7 @@ interface FilterableSectionClientProps {
   categories: string[];
   searchPlaceholder?: string;
   showSearch?: boolean;
+  showCategories?: boolean;
 }
 
 export default function FilterableSectionClient({
@@ -21,7 +22,8 @@ export default function FilterableSectionClient({
   sectionDescription,
   categories,
   searchPlaceholder = 'Search items...',
-  showSearch = true
+  showSearch = true,
+  showCategories = true
 }: FilterableSectionClientProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -88,6 +90,7 @@ export default function FilterableSectionClient({
         categories={categories}
         searchPlaceholder={searchPlaceholder}
         showSearch={showSearch}
+        showCategories={showCategories}
       />
 
       {/* Featured Project */}
