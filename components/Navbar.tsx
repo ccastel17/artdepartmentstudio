@@ -55,10 +55,10 @@ export default function Navbar() {
                     key={item.href}
                     href={item.href}
                     className={`
-                      px-4 py-2 text-sm font-medium transition-all
+                      px-4 py-2 text-sm font-medium transition-all border-[3px]
                       ${isActive 
-                        ? 'bg-white text-black' 
-                        : `text-white ${item.hoverColor} hover:text-white`
+                        ? 'bg-white text-black border-transparent'
+                        : 'text-white border-transparent hover:border-white hover:bg-black hover:text-white'
                       }
                     `}
                   >
