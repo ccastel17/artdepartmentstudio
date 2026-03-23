@@ -8,7 +8,7 @@ interface FeaturedProjectProps {
 
 export default function FeaturedProject({ project }: FeaturedProjectProps) {
   // Use heroMedia if available, otherwise use first image from gallery
-  const featuredImage = project.heroMedia || project.media?.[0]?.url || project.images[0];
+  const featuredImage = project.heroMedia || project.media?.[0]?.url || project.images?.[0];
   const isVideo = project.media?.[0]?.type === 'video' || featuredImage?.match(/\.(mp4|mov|avi|webm)$/i);
 
   if (!featuredImage) {

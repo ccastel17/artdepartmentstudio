@@ -168,8 +168,8 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
     setLoading(true);
 
     try {
-      if (images.length === 0) {
-        throw new Error('Please upload at least one file');
+      if (!heroMedia) {
+        throw new Error('Please upload a hero media file');
       }
 
       const data = {
@@ -491,7 +491,7 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
       {/* Image Gallery Upload */}
       <div>
         <label className="block text-sm font-medium text-gray-300 mb-2">
-          Project Media * (Drag & Drop multiple files)
+          Project Media (Drag & Drop multiple files)
         </label>
         
         {/* Existing Media */}

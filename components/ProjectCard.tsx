@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   // Use heroMedia if available, otherwise use first item from gallery
-  const thumbnail = project.heroMedia || project.media?.[0]?.url || project.images[0];
+  const thumbnail = project.heroMedia || project.media?.[0]?.url || project.images?.[0];
   const isVideo = project.media?.[0]?.type === 'video' || thumbnail?.match(/\.(mp4|mov|avi|webm)$/i);
 
   if (!thumbnail) {

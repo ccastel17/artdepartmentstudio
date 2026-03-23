@@ -21,7 +21,7 @@ export async function PUT(
 
     console.log('📝 Updating project:', { id, title, section });
 
-    if (!title || !description || !client || !section) {
+    if (!title || !description || !client || !section || !heroMedia) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
     }
 
@@ -35,7 +35,7 @@ export async function PUT(
     const parsedImages = Array.isArray(images) ? images : JSON.parse(images || '[]');
     const resolvedImages = Array.isArray(parsedMedia) && parsedMedia.length > 0
       ? parsedMedia.map((m: any) => m?.url).filter(Boolean)
-      : parsedImages;
+      : (Array.isArray(parsedImages) ? parsedImages : []);
 
     const parsedPricePerDay =
       typeof pricePerDay === 'number'

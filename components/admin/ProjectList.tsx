@@ -14,6 +14,7 @@ interface Project {
   featured: boolean;
   images: string[];
   media?: { url: string; type: 'image' | 'video' }[];
+  heroMedia?: string;
   order?: number;
   createdAt: string;
 }
@@ -144,25 +145,31 @@ export default function ProjectList({ section, onEdit, onRefresh }: ProjectListP
             </div>
 
             {/* Thumbnail */}
-            {(project.media?.[0]?.url || (project.images && project.images.length > 0)) && (
+            {(() => {
+              const thumbnailSrc = project.media?.[0]?.url || project.images?.[0] || project.heroMedia;
+              const isVideo = project.media?.[0]?.type === 'video';
+              if (!thumbnailSrc) return null;
+
+              return (
               <div className="relative w-24 h-24 bg-gray-900 rounded overflow-hidden flex-shrink-0">
-                {project.media?.[0]?.type === 'video' ? (
+                {isVideo ? (
                   <video
-                    src={project.media[0].url}
+                    src={thumbnailSrc}
                     className="absolute inset-0 w-full h-full object-cover"
                     muted
                     playsInline
                   />
                 ) : (
                   <Image
-                    src={project.media?.[0]?.url || project.images[0]}
+                    src={thumbnailSrc}
                     alt={project.title}
                     fill
                     className="object-cover"
                   />
                 )}
               </div>
-            )}
+              );
+            })()}
 
             {/* Info */}
             <div className="flex-1 min-w-0">

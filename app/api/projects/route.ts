@@ -20,7 +20,7 @@ export async function POST(request: Request) {
 
     console.log('📥 Creating project:', { title, section });
 
-    if (!title || !description || !client || !section) {
+    if (!title || !description || !client || !section || !heroMedia) {
       return NextResponse.json(
         { error: 'Missing required fields' },
         { status: 400 }
@@ -37,7 +37,7 @@ export async function POST(request: Request) {
     const parsedImages = typeof images === 'string' ? JSON.parse(images) : images;
     const resolvedImages = Array.isArray(parsedMedia) && parsedMedia.length > 0
       ? parsedMedia.map((m: any) => m?.url).filter(Boolean)
-      : parsedImages;
+      : (Array.isArray(parsedImages) ? parsedImages : []);
 
     const parsedPricePerDay =
       typeof pricePerDay === 'number'
