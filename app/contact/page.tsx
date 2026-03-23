@@ -52,7 +52,7 @@ export default function ContactPage() {
 
           <div className="space-y-8">
             <div className="flex items-start gap-4 group">
-              <div className="p-3 bg-french-blue/10 rounded-lg group-hover:bg-french-blue/20 transition-colors">
+              <div className="p-3 bg-french-blue/10 group-hover:bg-french-blue/20 transition-colors">
                 <Mail className="text-french-blue" size={24} />
               </div>
               <div>
@@ -67,7 +67,7 @@ export default function ContactPage() {
             </div>
 
             <div className="flex items-start gap-4 group">
-              <div className="p-3 bg-french-blue/10 rounded-lg group-hover:bg-french-blue/20 transition-colors">
+              <div className="p-3 bg-french-blue/10 group-hover:bg-french-blue/20 transition-colors">
                 <Phone className="text-french-blue" size={24} />
               </div>
               <div>
@@ -82,7 +82,7 @@ export default function ContactPage() {
             </div>
 
             <div className="flex items-start gap-4 group">
-              <div className="p-3 bg-french-blue/10 rounded-lg group-hover:bg-french-blue/20 transition-colors">
+              <div className="p-3 bg-french-blue/10 group-hover:bg-french-blue/20 transition-colors">
                 <MapPin className="text-french-blue" size={24} />
               </div>
               <div>
@@ -98,7 +98,7 @@ export default function ContactPage() {
         </div>
 
         {/* Contact Form */}
-        <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white">
+        <div className="bg-white/5 backdrop-blur-sm p-8 border border-white">
           <h2 className="text-2xl font-bold text-white mb-6">Send us a message</h2>
           
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -120,7 +120,7 @@ export default function ContactPage() {
                 onFocus={() => setFocusedField('name')}
                 onBlur={() => setFocusedField(null)}
                 placeholder="John Doe"
-                className="w-full px-4 py-3 bg-white/5 border border-white rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all"
+                className="w-full px-4 py-3 bg-white/5 border border-white text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all"
               />
             </div>
 
@@ -142,7 +142,7 @@ export default function ContactPage() {
                 onFocus={() => setFocusedField('email')}
                 onBlur={() => setFocusedField(null)}
                 placeholder="john@example.com"
-                className="w-full px-4 py-3 bg-white/5 border border-white rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all"
+                className="w-full px-4 py-3 bg-white/5 border border-white text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all"
               />
             </div>
 
@@ -163,7 +163,7 @@ export default function ContactPage() {
                 onFocus={() => setFocusedField('phone')}
                 onBlur={() => setFocusedField(null)}
                 placeholder="+34 656 94 51 83"
-                className="w-full px-4 py-3 bg-white/5 border border-white rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all"
+                className="w-full px-4 py-3 bg-white/5 border border-white text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all"
               />
             </div>
 
@@ -185,12 +185,12 @@ export default function ContactPage() {
                 onFocus={() => setFocusedField('message')}
                 onBlur={() => setFocusedField(null)}
                 placeholder="Tell us about your project..."
-                className="w-full px-4 py-3 bg-white/5 border border-white rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all resize-none"
+                className="w-full px-4 py-3 bg-white/5 border border-white text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all resize-none"
               />
             </div>
 
             {status === 'success' && (
-              <div className="flex items-center gap-3 p-4 bg-green-500/10 border border-green-500/20 rounded-lg">
+              <div className="flex items-center gap-3 p-4 bg-green-500/10 border border-green-500/20">
                 <CheckCircle className="text-green-500" size={20} />
                 <p className="text-green-500 text-sm">
                   Message sent successfully! We'll get back to you soon.
@@ -199,7 +199,7 @@ export default function ContactPage() {
             )}
 
             {status === 'error' && (
-              <div className="flex items-center gap-3 p-4 bg-red-500/10 border border-red-500/20 rounded-lg">
+              <div className="flex items-center gap-3 p-4 bg-red-500/10 border border-red-500/20">
                 <AlertCircle className="text-red-500" size={20} />
                 <p className="text-red-500 text-sm">
                   There was an error sending your message. Please try again.
@@ -210,11 +210,11 @@ export default function ContactPage() {
             <button
               type="submit"
               disabled={status === 'loading'}
-              className="w-full px-6 py-4 bg-french-blue text-white font-semibold rounded-lg hover:bg-blue-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 group"
+              className="w-full px-6 py-4 bg-french-blue text-white font-semibold hover:bg-blue-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 group"
             >
               {status === 'loading' ? (
                 <>
-                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                  <div className="w-5 h-5 border-2 border-white/30 border-t-white animate-spin" />
                   Sending...
                 </>
               ) : (
