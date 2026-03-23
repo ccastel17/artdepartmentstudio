@@ -6,7 +6,7 @@ import Link from 'next/link';
 import ProjectFormNew from '@/components/admin/ProjectFormNew';
 import ProjectList from '@/components/admin/ProjectList';
 
-export default function SetBuildingsAdmin() {
+export default function PropMakingAdmin() {
   const [editingProject, setEditingProject] = useState<any>(null);
   const [refreshKey, setRefreshKey] = useState(0);
 

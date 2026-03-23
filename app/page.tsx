@@ -20,7 +20,7 @@ async function getLatestProjects() {
     return projects.map(p => ({
       id: p._id.toString(),
       title: p.title,
-      section: p.section,
+      section: p.section === 'set-buildings' ? 'prop-making' : p.section,
       heroMedia: p.heroMedia || p.images?.[0] || '',
     }));
   } catch (error) {
@@ -45,8 +45,8 @@ async function getHomeHeroVideoUrl() {
 
 const sections = [
   {
-    href: '/set-buildings',
-    title: 'Set Buildings',
+    href: '/prop-making',
+    title: 'Prop Making',
     description: 'We transform concepts into tangible realities. From intimate spaces to large-scale productions, we craft environments that tell stories and breathe life into your creative vision.',
     hoverColor: 'group-hover:text-purple-500',
   },

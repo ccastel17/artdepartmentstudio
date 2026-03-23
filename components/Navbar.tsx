@@ -8,7 +8,7 @@ import AnimatedLogo from './AnimatedLogo';
 
 const menuItems = [
   { href: '/', label: 'Home', hoverColor: 'hover:bg-blue-500' },
-  { href: '/set-buildings', label: 'Set Buildings', hoverColor: 'hover:bg-purple-500' },
+  { href: '/prop-making', label: 'Prop Making', hoverColor: 'hover:bg-purple-500' },
   { href: '/fotografia', label: 'Photography', hoverColor: 'hover:bg-pink-500' },
   { href: '/art-direction', label: 'Art Direction', hoverColor: 'hover:bg-orange-500' },
   { href: '/rental', label: 'Rental', hoverColor: 'hover:bg-green-500' },

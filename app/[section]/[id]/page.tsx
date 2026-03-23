@@ -79,24 +79,32 @@ export default async function ProjectDetailPage({
 }) {
   const { section: sectionParam, id } = await params;
   const section = sectionParam as Section;
+
+  const dbSection = section === 'prop-making' ? 'set-buildings' : section;
   
   if (!(section in SECTIONS)) {
     notFound();
   }
 
-  const project = await getProject(section, id);
+  const project = await getProject(dbSection, id);
 
   if (!project) {
     notFound();
   }
 
   // Get related projects (other projects from same section, excluding current)
-  const relatedProjects = await getRelatedProjects(section, id);
+  const relatedProjects = await getRelatedProjects(dbSection, id);
+  const normalizedProject = section === 'prop-making'
+    ? { ...project, section: 'prop-making' as const }
+    : project;
+  const normalizedRelated = section === 'prop-making'
+    ? relatedProjects.map((p) => ({ ...p, section: 'prop-making' as const }))
+    : relatedProjects;
 
   return (
     <ProjectDetailClient 
-      project={project} 
-      relatedProjects={relatedProjects}
+      project={normalizedProject} 
+      relatedProjects={normalizedRelated}
       section={section}
     />
   );

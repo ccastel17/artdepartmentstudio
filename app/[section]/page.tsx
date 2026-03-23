@@ -72,17 +72,22 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
   const { section: sectionParam } = await params;
   const section = sectionParam as Section;
 
+  const dbSection = section === 'prop-making' ? 'set-buildings' : section;
+
   if (!(section in SECTIONS)) {
     notFound();
   }
 
-  const projects = await getProjects(section);
+  const projects = await getProjects(dbSection);
+  const normalizedProjects = section === 'prop-making'
+    ? projects.map((p) => ({ ...p, section: 'prop-making' as const }))
+    : projects;
 
   // Use filterable component for rental section
   if (section === 'rental') {
     return (
       <FilterableSectionClient
-        projects={projects}
+        projects={normalizedProjects}
         sectionTitle={SECTIONS[section]}
         sectionDescription={SECTION_DESCRIPTIONS[section]}
         categories={RENTAL_CATEGORIES}
@@ -95,7 +100,7 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
   if (section === 'art-direction') {
     return (
       <FilterableSectionClient
-        projects={projects}
+        projects={normalizedProjects}
         sectionTitle={SECTIONS[section]}
         sectionDescription={SECTION_DESCRIPTIONS[section]}
         categories={ART_DIRECTION_CATEGORIES}
@@ -109,7 +114,7 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
   if (section === 'fotografia') {
     return (
       <FilterableSectionClient
-        projects={projects}
+        projects={normalizedProjects}
         sectionTitle={SECTIONS[section]}
         sectionDescription={SECTION_DESCRIPTIONS[section]}
         categories={PHOTOGRAPHY_CATEGORIES}
@@ -120,8 +125,8 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
   }
 
   // Regular section display for other sections
-  const featuredProject = projects.find(p => p.featured);
-  const regularProjects = projects.filter(p => !p.featured);
+  const featuredProject = normalizedProjects.find(p => p.featured);
+  const regularProjects = normalizedProjects.filter(p => !p.featured);
 
   return (
     <div className="min-h-screen pt-32 pb-20 px-6 max-w-7xl mx-auto">

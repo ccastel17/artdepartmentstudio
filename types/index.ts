@@ -26,6 +26,7 @@ export interface Project {
 
 export type Section = 
   | 'set-buildings'
+  | 'prop-making'
   | 'fotografia'
   | 'art-direction'
   | 'rental';

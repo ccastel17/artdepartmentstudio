@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Hammer, Camera, Palette, Key, Image, Users, Mail, LogOut, Settings } from 'lucide-react';
 
 const sections = [
-  { href: '/admin/set-buildings', title: 'Set Buildings', icon: Hammer },
+  { href: '/admin/prop-making', title: 'Prop Making', icon: Hammer },
   { href: '/admin/fotografia', title: 'Photography', icon: Camera },
   { href: '/admin/art-direction', title: 'Art Direction', icon: Palette },
   { href: '/admin/rental', title: 'Rental', icon: Key },

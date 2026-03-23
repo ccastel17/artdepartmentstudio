@@ -8,7 +8,7 @@ import Logo from './Logo';
 
 const menuItems = [
   { href: '/', label: 'Home', icon: Home },
-  { href: '/set-buildings', label: 'Set Buildings', icon: Hammer },
+  { href: '/prop-making', label: 'Prop Making', icon: Hammer },
   { href: '/fotografia', label: 'Photography', icon: Camera },
   { href: '/art-direction', label: 'Art Direction', icon: Palette },
   { href: '/rental', label: 'Rental', icon: Key },

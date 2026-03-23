@@ -19,8 +19,8 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/set-buildings" className="text-gray-400 hover:text-white transition-colors text-sm">
-                    Set Buildings
+                  <Link href="/prop-making" className="text-gray-400 hover:text-white transition-colors text-sm">
+                    Prop Making
                   </Link>
                 </li>
                 <li>
@@ -69,8 +69,8 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/set-buildings" className="text-gray-400 hover:text-white transition-colors text-sm">
-                      Set Buildings
+                    <Link href="/prop-making" className="text-gray-400 hover:text-white transition-colors text-sm">
+                      Prop Making
                     </Link>
                   </li>
                 </ul>
