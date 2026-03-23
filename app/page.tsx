@@ -223,7 +223,7 @@ export default async function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <h2 className="text-white text-left">
-              Have a project in mind? Contact us and let's work together to make it happen
+              Let's work toghether
             </h2>
             <Link
               href="/contact"
