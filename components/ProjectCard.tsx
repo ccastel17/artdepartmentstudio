@@ -25,6 +25,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           <video
             src={thumbnail}
             className="absolute inset-0 w-full h-full object-cover transition-all duration-500"
+            autoPlay
+            loop
             muted
             playsInline
           />

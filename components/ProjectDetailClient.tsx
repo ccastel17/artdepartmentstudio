@@ -165,7 +165,10 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
                   {isVideo ? (
                     <video
                       src={item.url}
-                      controls
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
                       className="w-full h-full object-cover"
                     />
                   ) : (
