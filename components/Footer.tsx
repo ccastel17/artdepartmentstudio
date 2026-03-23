@@ -155,10 +155,10 @@ export default function Footer() {
               <div>
                 <h4 className="text-white font-semibold text-sm mb-1">Email</h4>
                 <a 
-                  href="mailto:hello@artdepartmentstudio.es" 
+                  href="mailto:info@artdepartmentstudio.es" 
                   className="text-french-blue hover:text-blue-400 transition-colors text-sm"
                 >
-                  hello@artdepartmentstudio.es
+                  info@artdepartmentstudio.es
                 </a>
               </div>
             </div>

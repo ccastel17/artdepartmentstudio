@@ -58,10 +58,10 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-lg font-semibold text-white mb-1">Email</h3>
                 <a 
-                  href="mailto:hello@artdepartmentstudio.es" 
+                  href="mailto:info@artdepartmentstudio.es" 
                   className="text-gray-400 hover:text-french-blue transition-colors"
                 >
-                  hello@artdepartmentstudio.es
+                  info@artdepartmentstudio.es
                 </a>
               </div>
             </div>
@@ -73,10 +73,10 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-lg font-semibold text-white mb-1">Phone</h3>
                 <a 
-                  href="tel:+34123456789" 
+                  href="tel:+34656945183" 
                   className="text-gray-400 hover:text-french-blue transition-colors"
                 >
-                  +34 123 456 789
+                  +34 656 94 51 83
                 </a>
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function ContactPage() {
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 onFocus={() => setFocusedField('phone')}
                 onBlur={() => setFocusedField(null)}
-                placeholder="+34 123 456 789"
+                placeholder="+34 656 94 51 83"
                 className="w-full px-4 py-3 bg-white/5 border border-white rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-french-blue focus:bg-white/10 transition-all"
               />
             </div>
