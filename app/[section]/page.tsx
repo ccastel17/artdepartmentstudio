@@ -100,6 +100,7 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
         sectionDescription={SECTION_DESCRIPTIONS[section]}
         categories={ART_DIRECTION_CATEGORIES}
         searchPlaceholder="Search art direction projects..."
+        showSearch={false}
       />
     );
   }
@@ -113,6 +114,7 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
         sectionDescription={SECTION_DESCRIPTIONS[section]}
         categories={PHOTOGRAPHY_CATEGORIES}
         searchPlaceholder="Search photography projects..."
+        showSearch={false}
       />
     );
   }

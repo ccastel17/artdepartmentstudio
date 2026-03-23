@@ -10,6 +10,7 @@ interface SectionFiltersProps {
   onClearFilters: () => void;
   categories: string[];
   searchPlaceholder?: string;
+  showSearch?: boolean;
 }
 
 export default function SectionFilters({
@@ -19,23 +20,26 @@ export default function SectionFilters({
   onCategoryToggle,
   onClearFilters,
   categories,
-  searchPlaceholder = 'Search items...'
+  searchPlaceholder = 'Search items...',
+  showSearch = true
 }: SectionFiltersProps) {
   const hasActiveFilters = searchTerm || selectedCategories.length > 0;
 
   return (
     <div className="mb-12 space-y-6">
       {/* Search Bar */}
-      <div className="relative">
-        <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
-        <input
-          type="text"
-          placeholder={searchPlaceholder}
-          value={searchTerm}
-          onChange={(e) => onSearchChange(e.target.value)}
-          className="w-full bg-white/5 border-[3px] border-white rounded-none pl-12 pr-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-french-blue transition-colors"
-        />
-      </div>
+      {showSearch && (
+        <div className="relative">
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
+          <input
+            type="text"
+            placeholder={searchPlaceholder}
+            value={searchTerm}
+            onChange={(e) => onSearchChange(e.target.value)}
+            className="w-full bg-white/5 border-[3px] border-white rounded-none pl-12 pr-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-french-blue transition-colors"
+          />
+        </div>
+      )}
 
       {/* Category Filters */}
       <div>
