@@ -83,32 +83,32 @@ export default function AboutUsTeamMembersClient({ members }: AboutUsTeamMembers
 
       {activeMember && (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 px-6"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 px-4 md:px-6 py-4"
           onClick={() => setActiveMember(null)}
           role="dialog"
           aria-modal="true"
           aria-label={`Bio de ${activeMember.name}`}
         >
           <div
-            className="w-full max-w-2xl bg-black border-[3px] border-white p-8"
+            className="w-full max-w-2xl bg-black border-[3px] border-white p-4 md:p-8 max-h-[90vh] overflow-y-auto flex flex-col"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-start justify-between gap-6 mb-6">
-              <div>
-                <h3 className="text-white text-2xl font-bold mb-1">{activeMember.name}</h3>
-                <p className="text-gray-400">{activeMember.role}</p>
+            <div className="flex items-start justify-between gap-4 md:gap-6 mb-6 flex-shrink-0">
+              <div className="min-w-0">
+                <h3 className="text-white text-xl md:text-2xl font-bold mb-1 break-words">{activeMember.name}</h3>
+                <p className="text-gray-400 text-sm md:text-base">{activeMember.role}</p>
               </div>
               <button
                 type="button"
                 onClick={() => setActiveMember(null)}
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-400 hover:text-white transition-colors flex-shrink-0"
                 aria-label="Close"
               >
                 <X size={24} />
               </button>
             </div>
 
-            <div className="text-gray-300 text-[16px] leading-relaxed whitespace-pre-line">
+            <div className="text-gray-300 text-sm md:text-base leading-relaxed whitespace-pre-line overflow-hidden">
               {activeMember.bio}
             </div>
           </div>
