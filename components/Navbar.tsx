@@ -7,7 +7,6 @@ import { useState, useEffect } from 'react';
 import AnimatedLogo from './AnimatedLogo';
 
 const menuItems = [
-  { href: '/', label: 'Home', hoverColor: 'hover:bg-blue-500' },
   { href: '/prop-making', label: 'Prop Making', hoverColor: 'hover:bg-purple-500' },
   { href: '/fotografia', label: 'Photography', hoverColor: 'hover:bg-pink-500' },
   { href: '/art-direction', label: 'Art Direction', hoverColor: 'hover:bg-orange-500' },
