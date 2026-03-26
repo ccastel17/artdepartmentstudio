@@ -51,7 +51,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {project.title}
         </h3>
         <p className="text-sm text-gray-400 mb-3 uppercase tracking-wider">{project.client} • {project.year}</p>
-        <p className="text-gray-400 text-sm line-clamp-2">{project.description}</p>
+        <p className="text-gray-400 text-sm line-clamp-2 whitespace-pre-line">{project.description}</p>
       </div>
     </Link>
   );

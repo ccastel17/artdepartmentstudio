@@ -81,7 +81,7 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
             <h1 className="text-5xl font-bold mb-4 text-white">
               {project.title}
             </h1>
-            <p className="text-xl text-gray-400 mb-6">
+            <p className="text-xl text-gray-400 mb-6 whitespace-pre-line">
               {project.description}
             </p>
             <div className="flex items-center gap-4">

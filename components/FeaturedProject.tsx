@@ -43,7 +43,7 @@ export default function FeaturedProject({ project }: FeaturedProjectProps) {
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 group-hover:text-gray-300 transition-colors">
           {project.title}
         </h2>
-        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl">
+        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl whitespace-pre-line">
           {project.description}
         </p>
         <div className="inline-block px-6 py-3 bg-cyan-500 text-black font-semibold group-hover:bg-cyan-600 transition-colors">
