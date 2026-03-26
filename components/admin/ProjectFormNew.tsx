@@ -54,7 +54,8 @@ export default function ProjectFormNew({ section, onSubmit, initialData, onCance
     'Modules',
     'Product Surfaces',
     'For Sale',
-    'Custom Carved Pieces'
+    'Custom Carved Pieces',
+    'Panot'
   ];
 
   const ART_DIRECTION_CATEGORIES = [

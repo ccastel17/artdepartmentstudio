@@ -41,7 +41,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         {project.pricePerDay && (
           <div className="absolute bottom-4 left-4 z-10 bg-black/95 backdrop-blur-sm px-4 py-2 rounded-full border border-white shadow-xl">
             <p className="text-white font-semibold text-sm">
-              €{project.pricePerDay}/day
+              €{project.pricePerDay}
             </p>
           </div>
         )}

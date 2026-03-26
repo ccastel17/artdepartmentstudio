@@ -92,7 +92,7 @@ export default function ProjectDetailClient({ project, relatedProjects, section 
                 <>
                   <span className="text-gray-600">•</span>
                   <p className="text-accent-blue font-bold text-2xl">
-                    €{project.pricePerDay}/day
+                    €{project.pricePerDay}
                   </p>
                 </>
               )}
