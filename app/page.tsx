@@ -131,15 +131,15 @@ export default async function Home() {
                 className="group block border-t border-white/10 py-8 hover:bg-white/5 transition-colors"
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-8 pr-0 md:pr-20">
-                  <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8 flex-1">
-                    <span className={`text-4xl md:text-6xl lg:text-8xl font-bold text-white/10 transition-colors w-16 md:w-24 lg:w-32 flex-shrink-0 text-center md:text-left md:ml-8 ${section.hoverColor}`}>
+                  <div className="flex flex-col items-center md:flex-row md:items-center gap-4 md:gap-8 flex-1">
+                    <span className={`text-4xl md:text-6xl lg:text-8xl font-bold text-white/10 transition-colors w-16 md:w-24 lg:w-32 flex-shrink-0 text-center ${section.hoverColor}`}>
                       {String(index + 1).padStart(2, '0')}
                     </span>
-                    <div className="flex-1 md:ml-0">
-                      <h3 className="text-white mb-2 text-center md:text-left">
+                    <div className="flex-1 text-center md:text-left md:ml-0">
+                      <h3 className="text-white mb-2">
                         {section.title}
                       </h3>
-                      <p className="text-base md:text-lg lg:text-xl text-gray-400 text-center md:text-left">
+                      <p className="text-base md:text-lg lg:text-xl text-gray-400">
                         {section.description}
                       </p>
                     </div>
