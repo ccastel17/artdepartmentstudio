@@ -46,13 +46,16 @@ export default async function AboutUsPage() {
         </h1>
         <div className="max-w-4xl space-y-8">
           <p className="text-xl md:text-2xl text-gray-400 leading-relaxed">
-            Art Department Studio is a scenographic materials production and product photography 
-            studio with over 10 years of experience in the audiovisual industry.
+            Art Department Studio is a creative powerhouse where stories take physical shape. Operating at the heart of the audiovisual industry, we are a multidisciplinary team dedicated to bringing cinematic visions to life through expert Art Direction and high-end production.
           </p>
           <p className="text-xl md:text-2xl text-gray-400 leading-relaxed">
-            Located in our workshop in Hospitalet de Llobregat, we manufacture materials 
-            for filming and produce projects that include on-site or workshop scenographic production, 
-            photo shoots, art direction for filming, and crew assembly for events, festivals, and sets.
+            We offer a comprehensive, end-to-end service that covers every stage of the creative process: from the initial concept and design to the final on-set logistics. Our strength lies in our ability to manage complex projects through a specialized crew of professionals and our own fully-equipped workshop.
+          </p>
+          <p className="text-xl md:text-2xl text-gray-400 leading-relaxed">
+            Located in Hospitalet de Llobregat, our facilities house specialized areas for carpentry, blacksmithing, and prop making. This allows us to maintain total control over quality and deadlines, manufacturing bespoke scenic elements and custom builds for films, commercials, and events.
+          </p>
+          <p className="text-xl md:text-2xl text-gray-400 leading-relaxed">
+            At Art Department Studio, we combine raw craftsmanship with technical precision to build the environments where your stories happen.
           </p>
         </div>
       </div>

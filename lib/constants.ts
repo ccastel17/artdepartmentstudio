@@ -7,9 +7,9 @@ export const SECTIONS = {
 } as const;
 
 export const SECTION_DESCRIPTIONS = {
-  'set-buildings': 'We transform concepts into tangible realities. From intimate spaces to large-scale productions, we craft environments that tell stories and breathe life into your creative vision.',
-  'prop-making': 'We transform concepts into tangible realities. From intimate spaces to large-scale productions, we craft environments that tell stories and breathe life into your creative vision.',
+  'set-buildings': 'From concept to reality, we design and manufacture high-end props for film, TV, and theater. Our workshop combines traditional craftsmanship with technical precision to create hero objects and custom pieces that bring every story to life.',
+  'prop-making': 'From concept to reality, we design and manufacture high-end props for film, TV, and theater. Our workshop combines traditional craftsmanship with technical precision to create hero objects and custom pieces that bring every story to life.',
   'fotografia': 'Capturing the essence of your products and projects through our lens. We create visual narratives that connect, inspire, and elevate your brand to new dimensions.',
-  'art-direction': 'Where aesthetics meet strategy. We orchestrate every visual element to create cohesive experiences that resonate with your audience and amplify your message.',
-  'rental': 'Access our curated collection of scenographic elements and equipment. Quality pieces that adapt to your needs, ready to bring your creative projects to life.',
+  'art-direction': 'From concept to set. We build worlds blending technique, storytelling, and crafting knowledge. The place where art meets technique. Where ideas take shape.',
+  'rental': 'We offer a curated selection of contemporary sculptural elements, pedestals (peanas), and traditional panots for rent. Available in stone, wood, and metal, our collection provides high-quality aesthetic solutions for set design, exhibitions, and events.',
 } as const;

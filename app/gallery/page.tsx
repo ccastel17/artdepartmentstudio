@@ -38,7 +38,7 @@ export default async function GalleryPage() {
             Gallery
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 max-w-3xl">
-            A space to showcase and give place to artists from everywhere. Informal events where we bring together artists and creatives to share experiences.
+            A dedicated space to showcase and host artists from around the globe. We believe in the power of social connection, hosting informal events that bring together artists and creatives to share experiences and strengthen our professional network.
           </p>
         </div>
       </section>
