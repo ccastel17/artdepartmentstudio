@@ -112,7 +112,7 @@ export default async function TestHome() {
               >
                 <div className="flex items-center justify-between gap-8 pr-20">
                   <div className="flex items-center gap-8 flex-1">
-                    <span className={`text-6xl md:text-8xl font-bold text-white/10 transition-colors w-24 md:w-32 flex-shrink-0 ml-8 ${section.hoverColor}`}>
+                    <span className={`text-6xl md:text-8xl font-bold text-white/10 pl-4 md:pl-8 transition-colors w-24 md:w-32 flex-shrink-0 ml-8 ${section.hoverColor}`}>
                       {String(index + 1).padStart(2, '0')}
                     </span>
                     <div className="flex-1">
