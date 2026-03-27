@@ -30,7 +30,7 @@ const sections = [
   {
     href: '/prop-making',
     title: 'Prop Making',
-    description: 'We transform concepts into tangible realities. From intimate spaces to large-scale productions, we craft environments that tell stories and breathe life into your creative vision.',
+    description: 'From concept to reality, we design and manufacture high-end props for film, TV, and theater. Our workshop combines traditional craftsmanship with technical precision to create hero objects and custom pieces that bring every story to life.',
     hoverColor: 'group-hover:text-purple-500',
   },
   {
@@ -42,13 +42,13 @@ const sections = [
   {
     href: '/art-direction',
     title: 'Art Direction',
-    description: 'Where aesthetics meet strategy. We orchestrate every visual element to create cohesive experiences that resonate with your audience and amplify your message.',
+    description: 'From concept to set. We build worlds blending technique, storytelling, and crafting knowledge. The place where art meets technique. Where ideas take shape.',
     hoverColor: 'group-hover:text-orange-500',
   },
   {
     href: '/rental',
     title: 'Rental',
-    description: 'Access our curated collection of scenographic elements and equipment. Quality pieces that adapt to your needs, ready to bring your creative projects to life.',
+    description: 'We offer a curated selection of contemporary sculptural elements, pedestals (peanas), and traditional panots for rent. Available in stone, wood, and metal, our collection provides high-quality aesthetic solutions for set design, exhibitions, and events.',
     hoverColor: 'group-hover:text-green-500',
   },
 ];
