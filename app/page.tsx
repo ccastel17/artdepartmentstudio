@@ -132,7 +132,7 @@ export default async function Home() {
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-8 pr-0 md:pr-20">
                   <div className="flex flex-col items-center md:flex-row md:items-center gap-4 md:gap-8 flex-1">
-                    <span className={`text-4xl md:text-6xl lg:text-8xl font-bold text-white/10 transition-colors w-16 md:w-24 lg:w-32 flex-shrink-0 text-center pl-4 md:pl-8 pr-4 md:pr-8 ${section.hoverColor}`}>
+                    <span className={`text-4xl md:text-6xl lg:text-8xl font-bold text-white/10 transition-colors flex-shrink-0 mx-auto md:mx-0 md:ml-8 md:mr-8 ${section.hoverColor}`}>
                       {String(index + 1).padStart(2, '0')}
                     </span>
                     <div className="flex-1 text-center md:text-left md:ml-0">
